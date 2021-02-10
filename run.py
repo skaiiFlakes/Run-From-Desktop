@@ -3,8 +3,8 @@ import sys
 
 os.system('cls')
 
-txtfile = open(r'C:\Users\ica\Coding Projects\Python\lastran.txt', 'r+')
-DIRECTORY_PATH = r'C:\Users\ica\Coding Projects\Python'
+txtfile = open(r'path to txt file', 'r+') #create an empty text file, add path
+DIRECTORY_PATH = r'path to Python folder' #add path to your master projects folder
 
 exclude = []
 for root, dirs, files in os.walk(DIRECTORY_PATH):
